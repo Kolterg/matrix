@@ -7,14 +7,22 @@
     <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Matrix</title>
     <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<div></div>
 <form>
-    <input type="radio" id="multMatrixNumber">
-    <input type="radio" id="MultiplyMatrix">
-    <input type="radio" id="SumMatrix">
-    <input type="radio" id="TransMatrix">
+    <input type="radio" id="multMatrixNumber" name="chose">
+    <label for="multMatrixNumber">Умножение матрицы на число</label>
+    <br/>
+    <input type="radio" id="MultiplyMatrix" name="chose">
+    <label for="MultiplyMatrix">Умножение матрицы на матрицу</label>
+    <br/>
+    <input type="radio" id="SumMatrix" name="chose">
+    <label for="SumMatrix">Сумма матриц</label>
+    <br/>
+    <input type="radio" id="TransMatrix" name="chose">
+    <label for="TransMatrix">Транспонирование матрицы</label>
+    <br/>
     <textarea id="in1"></textarea>
     <textarea id="in2"></textarea>
     <input id="out">
