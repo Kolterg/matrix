@@ -1,4 +1,18 @@
+/*body {*/
+/*    background-color: #302e2f;*/
+/*    color: #fff;*/
+/*}*/
+
 textarea {
     height: 80px;
+}
+
+.bigBox {
+    display: flex;
+    flex-direction: row;
     margin-top: 20px;
+}
+
+.box {
+    margin-right: 103px;
 }
